@@ -1,0 +1,49 @@
+#card {
+    height: 200px;
+    width:  350px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #202020;
+    font-family: Helvetica
+  } 
+  
+  .photo {
+     height:200px;
+     width: 350px;
+     border-color:greenyellow ;
+    position: aboslute;
+    z-index:100;
+    opacity: 0.2;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .text {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: #808080
+  }
+  
+  #head {
+    font-size: 20px
+  }
+  
+  .name {
+    top: 0px;
+    z-index: 2;
+    position: absolute;
+  }
+  
+  .icon {
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+  }
+  
+  .light-grey {
+    color: #909090;
+    font-family: Arial;
+  
+  }
